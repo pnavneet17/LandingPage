@@ -12,13 +12,16 @@ body {
     flex-direction: column;
     height: 400px;
     width: auto;
+    margin: 0;
+    padding: 0;
 }
 
-.header_nav, .header_desc{
+.header_nav,
+.header_desc {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px 250px;
 }
 
 h2,
@@ -31,13 +34,113 @@ a {
     flex-direction: row;
     gap: 15px;
 }
+
 a {
     color: #E5E7EB;
     text-decoration: none;
 
 }
 
-.header_img{
+.header_img {
     height: 150px;
     width: 300px;
+}
+
+.left_section {
+    width: 400px;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.header_text {
+    margin: 0;
+    font-size: 18px;
+    color: #6c7280;
+}
+
+.btn {
+    background-color: rgb(53, 53, 180);
+    color: white;
+    padding: 5px 13px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+.hero_section{
+    width: auto;
+    height: 465px;
+    background-color: antiquewhite;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+padding: 60px;
+
+}
+.text1{
+    font-size:48px ;
+    font-weight: 900;
+    
+}
+.card_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    width: 160px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.card_img{
+    height: 150px;
+    width: 150px;
+}
+.p_text{
+    height: 80px;
+    width: 140px;
+}
+.desc_section{
+    height: 400px;
+    width: auto;
+    background-color: #838b9c;
+    display: flex;
+   justify-content:center ;
+   align-items: center;
+   font-size:20px ;
+   padding: 10px 50px;
+}
+
+.footer_section{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(102, 230, 145);
+    height: 300px;
+}
+.big_text{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.small_text{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
 }
